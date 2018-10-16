@@ -29,6 +29,7 @@ public class BoardDAO {
 		String sql = " select * from (select p.*, row_number() over(order by bid desc) as rnum from p_board p where p.btype = ?) where rnum between ? and ? ";
 		try {
 			conn = DBConnector.getConn();
+			//dkjdl;dj
 			ps = conn.prepareStatement(sql);
 			ps.setInt(1, btype);
 			ps.setInt(2, (page - 1) * 15 + 1);
