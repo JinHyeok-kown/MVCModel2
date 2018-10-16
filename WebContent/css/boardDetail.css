@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.bid {
+	width: 10%;
+}
+
+.btitle {
+	width: 70%;
+}
+
+.bregdate {
+	width: 20%;
+}
+
+.p1 {
+	margin-right: 2.5%;
+	text-align: right;
+}
+
